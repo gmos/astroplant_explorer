@@ -14,7 +14,7 @@ class IP_Utils:
     @staticmethod
     def get_ip_addresses():
         """Get a list of all IPV4 IP addresses on a default route and their metrics.
-        Sort with the least cost one first. 
+        Sort with the least cost one first.
         """
         address_list = []
         try:
