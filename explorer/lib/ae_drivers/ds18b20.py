@@ -1,10 +1,9 @@
 """
-ae_drivers DS18B20 code.
+ae_drivers DD18B20 code.
 See https: // github.com/sensemakersamsterdam/astroplant_explorer
 """
 #
 # (c) Sensemakersams.org and others. See https://github.com/sensemakersamsterdam/astroplant_explorer
-# Author: Gijs Mos
 #
 # This is a library module, nit intended to be called directly.
 # See basic_demos/ds18b20_demo.py as a usage sample.
@@ -57,6 +56,4 @@ def read_temp():
         temp_c = float(temp_string) / 1000.0
         #temp_f = temp_c * 9.0 / 5.0 + 32.0
         return temp_c
-
-
 

@@ -1,3 +1,5 @@
 .DS_Store
 credentials.py
 .vscode/
+__pycache__/
+*.pyc
